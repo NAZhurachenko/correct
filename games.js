@@ -1,5 +1,5 @@
 function season() {
-    month = prompt('Введите номер месяца');
+    const month = prompt('Введите номер месяца');
     if (month >= 3 && month <= 5) {
         alert('Весна');
     }
